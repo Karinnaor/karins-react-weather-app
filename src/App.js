@@ -8,7 +8,10 @@ export default function App() {
       </header>
       <footer>
         This project wad coded by Karin Naor, and is{" "}
-        <a href="" target="_blank">
+        <a
+          href="https://github.com/Karinnaor/karins-react-weather-app"
+          target="_blank"
+        >
           {" "}
           open sourced on Github
         </a>
