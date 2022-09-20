@@ -1,4 +1,5 @@
 import React from "react";
+import Weather from "./Weather";
 // Put any other imports below so that CSS from your
 // components takes precedence over default styles.
 import "./App.css";
@@ -9,7 +10,7 @@ export default function App() {
       <div className="container">
         <header className="App-header">
           <h1> Weather Search </h1>
-          <button className="btn btn-primary"> Yes? </button>
+          <Weather />
         </header>
         <footer>
           This project wad coded by Karin Naor, and is{" "}
