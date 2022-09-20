@@ -3,7 +3,7 @@ import "./Weather.css";
 
 export default function Weather() {
   return (
-    <div className="weather">
+    <div className="Weather">
       <form>
         <div className="row">
           <div className="col-9">
@@ -28,13 +28,19 @@ export default function Weather() {
         <li>Sunny</li>
       </ul>
 
-      <div className="row">
+      <div className="row mt-3">
         <div className="col-6">
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-            alt="sunny"
-          ></img>
-          <h2>6°C</h2>
+          <div className="d-flex">
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+              alt="sunny"
+              className="float-left"
+            ></img>
+            <div className="float-left">
+              <span className="temperature">6</span>
+              <span className="units"> °C</span>
+            </div>
+          </div>
         </div>
         <div className="col-6">
           <ul>
