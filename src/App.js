@@ -13,7 +13,7 @@ export default function App() {
           <Weather defaultCity="New York" />
         </header>
         <footer>
-          This project wad coded by Karin Naor, and is{" "}
+          This project was coded by Karin Naor, and is{" "}
           <a
             href="https://github.com/Karinnaor/karins-react-weather-app"
             target="_blank"

@@ -49,3 +49,10 @@
   margin-right: 10px;
   display: inline-block;
 }
+
+.WeatherForecast canvas {
+  height: 32px;
+  width: 32px;
+  margin-right: 10px;
+  display: inline-block;
+}
